@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Description</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        input { padding: 6px; margin: 10px; }
+        button { padding: 6px 12px; }
+        .result { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h2>Enter Fail ID</h2>
+    <input type="text" id="failIdInput" placeholder="e.g., ID-25">
+    <button onclick="fetchDescriptions()">Get Matching Descriptions</button>
+
+    <div class="result" id="descriptionResults"></div>
+
+    <script>
+        async function fetchDescriptions() {
+            const failId = document.getElementById('failIdInput').value;
+            const response = await fetch('/get_descriptions', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ fail_id: failId })
+            });
+            const data = await response.json();
+
+            const resultsDiv = document.getElementById('descriptionResults');
+            if (data.length === 0) {
+                resultsDiv.innerHTML = "<p>No matches found.</p>";
+            } else {
+                resultsDiv.innerHTML = "<h3>Matching Descriptions:</h3><ul>" +
+                    data.map(d => `<li><strong>${d.category}</strong>: ${d.description}</li>`).join("") +
+                    "</ul>";
+            }
+        }
+    </script>
+</body>
+<a href="/">
+    <button style="margin-top: 20px;">🏠 Back to Homepage</button>
+</a>
+
+</html>
