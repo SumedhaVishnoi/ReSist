@@ -1,0 +1,4376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='SWIFT_MeasurementReport.xsl'?>
+<QM_TEST_RESULT MODE="INSERT">
+  <RESULT_DATA STORE_LIMITS="TRUE">
+    <HEADER>
+      <FILE_NAME>476383A.108_RAP-INCOMING</FILE_NAME>
+      <SWIFT_VERSION>9.16.4</SWIFT_VERSION>
+      <TEST_SPEC_ID>97C2FC823D</TEST_SPEC_ID>
+      <OPERATOR>Testeradmin</OPERATOR>
+      <COMMENT />
+      <TESTER>
+        <NAME>NET06EP0557</NAME>
+        <SERIAL_NUMBER>NET06EP0557</SERIAL_NUMBER>
+        <OT_NUMBER>T232956</OT_NUMBER>
+        <SW_VERSION>9.16.4</SW_VERSION>
+        <HW_VERSION>06</HW_VERSION>
+        <TEST_SEQUENCE>476383A.108_RAP-INCOMING</TEST_SEQUENCE>
+        <SEQUENCE_VERSION>NA</SEQUENCE_VERSION>
+        <SITE>NGUR</SITE>
+        <OPERATION>RAP_TEST_INCOMING</OPERATION>
+      </TESTER>
+      <DUT>
+        <SERIAL_NUMBER>K9232100263</SERIAL_NUMBER>
+        <PRODUCT_CODE>476383A.108</PRODUCT_CODE>
+        <PRODUCT_REVISION>A</PRODUCT_REVISION>
+        <SHOP_ORDER>NA</SHOP_ORDER>
+        <SW_VERSION>NA</SW_VERSION>
+        <OPERATOR />
+        <POSITION>1</POSITION>
+      </DUT>
+      <CABINET>
+        <SERIAL_NUMBER />
+        <PRODUCT_CODE />
+        <TYPE />
+      </CABINET>
+      <MAC_ADDRESSES />
+      <FIXTURES />
+      <CUSTOM_ATTRIBUTES>
+        <FIELD VALUE="RID-250602225821">RID</FIELD>
+        <FIELD VALUE="9.16.4">VER</FIELD>
+      </CUSTOM_ATTRIBUTES>
+    </HEADER>
+    <RESULTS>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>10</ID>
+        <NAME>Dut check</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>PassFail</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>9715</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>1</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>11</ID>
+        <NAME>DoorOpen</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4222</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>2</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>12</ID>
+        <NAME>PlugInTheSfp</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>969</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>3</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>13</ID>
+        <NAME>DutIn</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>20240</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>4</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>14</ID>
+        <NAME>DoorClose</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>9377</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>5</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>15</ID>
+        <NAME>ParseRouteLossDataTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>0</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>6</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>16</ID>
+        <NAME>ReadMonitorPower</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-67.1439791371418</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-140</ACC_LOW>
+        <ACC_HIGH>-60</ACC_HIGH>
+        <TEST_TIME>4446</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>7</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>17</ID>
+        <NAME>PowerResetTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8064</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>8</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>18</ID>
+        <NAME>UartTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>27193</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>9</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>19</ID>
+        <NAME>PingTarget</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>71613</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>10</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>20</ID>
+        <NAME>ConnectMasterCpu</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5504</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>11</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>21</ID>
+        <NAME>SetRebootFlag</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">[0xC0015] 'Unknown' = 0x1 (1) written succesfully</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>[0xC0015] 'Unknown' = 0x1 (1) written succesfully</ACC_LOW>
+        <ACC_HIGH>[0xC0015] 'Unknown' = 0x1 (1) written succesfully</ACC_HIGH>
+        <TEST_TIME>150</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>12</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>22</ID>
+        <NAME>SetRebootFlag</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">[0xE5] 'Unknown' = 0x2 (2) written succesfully</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>[0xE5] 'Unknown' = 0x2 (2) written succesfully</ACC_LOW>
+        <ACC_HIGH>[0xE5] 'Unknown' = 0x2 (2) written succesfully</ACC_HIGH>
+        <TEST_TIME>150</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>13</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>23</ID>
+        <NAME>SetRebootFlag</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>300</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>14</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>24</ID>
+        <NAME>MadeIssueDetection</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2683</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>15</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>25</ID>
+        <NAME>MadeMutedTxDetection</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2527</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>16</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>26</ID>
+        <NAME>SanityCheckHWS</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>28399</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>17</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>27</ID>
+        <NAME>BBoxFileAlarmReport</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>18</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>28</ID>
+        <NAME>HistoryAlarmReport</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>486</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>19</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>29</ID>
+        <NAME>BBoxFileCheckTest_FID16</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>20</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>30</ID>
+        <NAME>BBoxFileCheckTest_FID1316</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>21</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>31</ID>
+        <NAME>BBoxFileCheckTest_FID1103</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>22</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>32</ID>
+        <NAME>UpgradeSwPackage_FileName</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">rfsw-package-aqql_0x7C0E99E3.tar</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>rfsw-package-aqql_0x7C0E99E3.tar</ACC_LOW>
+        <ACC_HIGH>rfsw-package-aqql_0x7C0E99E3.tar</ACC_HIGH>
+        <TEST_TIME>17301</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>23</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>33</ID>
+        <NAME>UpgradeSwPackage_FileVersion</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">0x7C0E99E3</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0x7C0E99E3</ACC_LOW>
+        <ACC_HIGH>0x7C0E99E3</ACC_HIGH>
+        <TEST_TIME>17301</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>24</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>34</ID>
+        <NAME>UpgradeSwPackage_BuildName</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">RF.CTA6.trunk.20230708.003</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>RF.CTA6.trunk.20230708.003</ACC_LOW>
+        <ACC_HIGH>RF.CTA6.trunk.20230708.003</ACC_HIGH>
+        <TEST_TIME>17301</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>25</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>35</ID>
+        <NAME>UpgradeSwPackage_BuildVersion</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">RF.CTA6.trunk.20230708.003</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>RF.CTA6.trunk.20230708.003</ACC_LOW>
+        <ACC_HIGH>RF.CTA6.trunk.20230708.003</ACC_HIGH>
+        <TEST_TIME>17301</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>26</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>36</ID>
+        <NAME>PaVoltageOff</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>407</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>27</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>37</ID>
+        <NAME>PowerResetTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8108</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>28</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>38</ID>
+        <NAME>UartTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>28862</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>29</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>39</ID>
+        <NAME>PingTarget</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>35356</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>30</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>40</ID>
+        <NAME>ConnectMasterCpu</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>15322</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>31</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>41</ID>
+        <NAME>CheckRfswVersion_FileName</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">rfsw-package-aqql_0x7C0E99E3.tar</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>rfsw-package-aqql_0x7C0E99E3.tar</ACC_LOW>
+        <ACC_HIGH>rfsw-package-aqql_0x7C0E99E3.tar</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>32</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>42</ID>
+        <NAME>CheckRfswVersion_FileVersion</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">0x7C0E99E3</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0x7C0E99E3</ACC_LOW>
+        <ACC_HIGH>0x7C0E99E3</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>33</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>43</ID>
+        <NAME>CheckRfswVersion_BuildName</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">RF.CTA6.trunk.20230708.003</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>RF.CTA6.trunk.20230708.003</ACC_LOW>
+        <ACC_HIGH>RF.CTA6.trunk.20230708.003</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>34</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>44</ID>
+        <NAME>CheckRfswVersion_BuildVersion</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">RF.CTA6.trunk.20230708.003</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>RF.CTA6.trunk.20230708.003</ACC_LOW>
+        <ACC_HIGH>RF.CTA6.trunk.20230708.003</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>35</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>45</ID>
+        <NAME>Configure TPM Unit phase</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>974</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>36</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>46</ID>
+        <NAME>Security Certificate Verification srv</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>900</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>37</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>47</ID>
+        <NAME>CheckHwid</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>38</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>48</ID>
+        <NAME>CheckHwid_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>39</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>49</ID>
+        <NAME>CheckHwid_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">85 20 0 0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>85 20 0 0</ACC_LOW>
+        <ACC_HIGH>85 20 0 0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>40</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>50</ID>
+        <NAME>CheckHwSwId</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>41</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>51</ID>
+        <NAME>CheckHwSwId_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>42</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>52</ID>
+        <NAME>CheckHwSwId_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>43</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>53</ID>
+        <NAME>ModuleLabelContent</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>44</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>54</ID>
+        <NAME>ModuleLabelContent_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>45</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>55</ID>
+        <NAME>ModuleLabelContent_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">3</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>3</ACC_LOW>
+        <ACC_HIGH>3</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>46</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>56</ID>
+        <NAME>ModuleProductCode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>47</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>57</ID>
+        <NAME>ModuleProductCode_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>48</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>58</ID>
+        <NAME>ModuleProductCode_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">476383A.108</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>476383A.108</ACC_LOW>
+        <ACC_HIGH>476383A.108</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>49</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>59</ID>
+        <NAME>ModuleSerialNumber</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>50</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>60</ID>
+        <NAME>ModuleSerialNumber_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>51</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>61</ID>
+        <NAME>ModuleSerialNumber_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">K9232100263</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>K9232100263</ACC_LOW>
+        <ACC_HIGH>K9232100263</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>52</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>62</ID>
+        <NAME>CoreAssemblyLabelContent</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>53</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>63</ID>
+        <NAME>CoreAssemblyLabelContent_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>54</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>64</ID>
+        <NAME>CoreAssemblyLabelContent_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">3</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>3</ACC_LOW>
+        <ACC_HIGH>3</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>55</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>65</ID>
+        <NAME>CoreAssemblyProductCode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>56</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>66</ID>
+        <NAME>CoreAssemblyProductCode_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>57</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>67</ID>
+        <NAME>CoreAssemblyProductCode_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">476383A.108</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>476383A.108</ACC_LOW>
+        <ACC_HIGH>476383A.108</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>58</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>68</ID>
+        <NAME>CoreAssemblySerialNumber</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>59</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>69</ID>
+        <NAME>CoreAssemblySerialNumber_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>60</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>70</ID>
+        <NAME>CoreAssemblySerialNumber_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">K9232100263</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>K9232100263</ACC_LOW>
+        <ACC_HIGH>K9232100263</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>61</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>71</ID>
+        <NAME>CheckManufacturer</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>62</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>72</ID>
+        <NAME>CheckManufacturer_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>63</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>73</ID>
+        <NAME>CheckManufacturer_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">NOKIA</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>NOKIA</ACC_LOW>
+        <ACC_HIGH>NOKIA</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>64</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>74</ID>
+        <NAME>CheckFactorySpecific</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>65</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>75</ID>
+        <NAME>CheckFactorySpecific_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>0</ACC_LOW>
+        <ACC_HIGH>0</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>66</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>76</ID>
+        <NAME>CheckFactorySpecific_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">UNIT_TEST</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>UNIT_TEST</ACC_LOW>
+        <ACC_HIGH>UNIT_TEST</ACC_HIGH>
+        <TEST_TIME>7</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>67</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>77</ID>
+        <NAME>CheckMacAddressAqqlSfp0</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>68</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>78</ID>
+        <NAME>CheckMacAddressAqqlSfp0_WasVerified</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>69</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>79</ID>
+        <NAME>CheckMacAddressAqqlSfp0_Value</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">28:74:F5:2E:C7:DE</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>NA</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>28:74:F5:2E:C7:DE</ACC_LOW>
+        <ACC_HIGH>28:74:F5:2E:C7:DE</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>70</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>80</ID>
+        <NAME>CheckFileTest</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">316</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>316</ACC_LOW>
+        <ACC_HIGH>316</ACC_HIGH>
+        <TEST_TIME>13744</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>71</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>81</ID>
+        <NAME>CheckFileTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS></UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>13744</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>72</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>82</ID>
+        <NAME>FanRfswControlTest_FanDetection1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>26</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>73</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>83</ID>
+        <NAME>FanRfswControlTest_FanDetection2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>26</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>74</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>84</ID>
+        <NAME>FanRfswControlTest_FanDetection3</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>26</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>75</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>85</ID>
+        <NAME>FanRfswControlTest_FanSpeed1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2100</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>rpm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>100</ACC_LOW>
+        <ACC_HIGH>10000</ACC_HIGH>
+        <TEST_TIME>26</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>76</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>86</ID>
+        <NAME>FanRfswControlTest_FanSpeed2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2040</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>rpm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>100</ACC_LOW>
+        <ACC_HIGH>10000</ACC_HIGH>
+        <TEST_TIME>26</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>77</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>87</ID>
+        <NAME>FanRfswControlTest_FanSpeed3</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">2040</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>rpm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>100</ACC_LOW>
+        <ACC_HIGH>10000</ACC_HIGH>
+        <TEST_TIME>26</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>78</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>88</ID>
+        <NAME>FanRfswControlTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>26</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>79</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>89</ID>
+        <NAME>FanFullControlTest_FanDetection1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4329</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>80</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>90</ID>
+        <NAME>FanFullControlTest_FanDetection2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4329</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>81</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>91</ID>
+        <NAME>FanFullControlTest_FanDetection3</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4329</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>82</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>92</ID>
+        <NAME>FanFullControlTest_FanSpeed1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4590</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>rpm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4200</ACC_LOW>
+        <ACC_HIGH>5000</ACC_HIGH>
+        <TEST_TIME>4329</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>83</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>93</ID>
+        <NAME>FanFullControlTest_FanSpeed2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4560</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>rpm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4200</ACC_LOW>
+        <ACC_HIGH>5000</ACC_HIGH>
+        <TEST_TIME>4329</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>84</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>94</ID>
+        <NAME>FanFullControlTest_FanSpeed3</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">4530</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>rpm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>4200</ACC_LOW>
+        <ACC_HIGH>5000</ACC_HIGH>
+        <TEST_TIME>4329</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>85</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>95</ID>
+        <NAME>FanFullControlTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4329</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>86</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>96</ID>
+        <NAME>ConnectMade1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7227</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>87</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>97</ID>
+        <NAME>ConnectMade5</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7232</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>88</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>98</ID>
+        <NAME>ConnectMade6</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>7378</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>89</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>99</ID>
+        <NAME>ConnectMade7</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8113</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>90</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>100</ID>
+        <NAME>ConnectMade4</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8171</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>91</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>101</ID>
+        <NAME>ConnectMade3</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8176</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>92</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>102</ID>
+        <NAME>ConnectMade8</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>9076</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>93</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>103</ID>
+        <NAME>ConnectMade2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>9120</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>94</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>104</ID>
+        <NAME>UploadFile(s)ToMade6</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>690</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>95</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>105</ID>
+        <NAME>UploadFile(s)ToMade5</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>715</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>96</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>106</ID>
+        <NAME>UploadFile(s)ToMade7</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>757</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>97</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>107</ID>
+        <NAME>UploadFile(s)ToMade4</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>842</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>98</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>108</ID>
+        <NAME>UploadFile(s)ToMade2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>887</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>99</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>109</ID>
+        <NAME>UploadFile(s)ToMade1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>906</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>100</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>110</ID>
+        <NAME>UploadFile(s)ToMade8</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>995</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>101</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>111</ID>
+        <NAME>UploadFile(s)ToMade3</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1007</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>102</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>112</ID>
+        <NAME>BistMade2AtmTestBinary_Made2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3912</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>103</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>113</ID>
+        <NAME>BistMade2AtmTestBinary_Made3</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4124</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>104</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>114</ID>
+        <NAME>BistMade2AtmTestBinary_Made6</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4294</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>105</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>115</ID>
+        <NAME>BistMade2AtmTestBinary_Made7</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4300</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>106</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>116</ID>
+        <NAME>BistMade2AtmTestBinary_Made5</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4382</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>107</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>117</ID>
+        <NAME>BistMade2AtmTestBinary_Made4</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4537</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>108</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>118</ID>
+        <NAME>BistMade2AtmTestBinary_Made8</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4556</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>109</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>119</ID>
+        <NAME>BistMade2AtmTestBinary_Made1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4719</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>110</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>120</ID>
+        <NAME>ReadMadeEyeHeight1_Lane0</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">140</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>111</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>121</ID>
+        <NAME>ReadMadeEyeHeight1_Lane1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">169</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>112</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>122</ID>
+        <NAME>ReadMadeEyeHeight1_Lane2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">154</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>113</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>123</ID>
+        <NAME>ReadMadeEyeHeight2_Lane0</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">188</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>114</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>124</ID>
+        <NAME>ReadMadeEyeHeight2_Lane1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">146</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>115</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>125</ID>
+        <NAME>ReadMadeEyeHeight2_Lane2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">177</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>116</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>126</ID>
+        <NAME>ReadMadeEyeHeight3_Lane0</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">186</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>117</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>127</ID>
+        <NAME>ReadMadeEyeHeight3_Lane1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">169</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>118</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>128</ID>
+        <NAME>ReadMadeEyeHeight3_Lane2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">166</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>119</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>129</ID>
+        <NAME>ReadMadeEyeHeight4_Lane0</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">157</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>120</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>130</ID>
+        <NAME>ReadMadeEyeHeight4_Lane1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">167</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>121</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>131</ID>
+        <NAME>ReadMadeEyeHeight4_Lane2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">177</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>122</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>132</ID>
+        <NAME>ReadMadeEyeHeight5_Lane0</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">145</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>123</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>133</ID>
+        <NAME>ReadMadeEyeHeight5_Lane1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">163</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>124</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>134</ID>
+        <NAME>ReadMadeEyeHeight5_Lane2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">173</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>125</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>135</ID>
+        <NAME>ReadMadeEyeHeight6_Lane0</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">169</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>126</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>136</ID>
+        <NAME>ReadMadeEyeHeight6_Lane1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">150</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>127</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>137</ID>
+        <NAME>ReadMadeEyeHeight6_Lane2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">182</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>128</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>138</ID>
+        <NAME>ReadMadeEyeHeight7_Lane0</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">176</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>129</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>139</ID>
+        <NAME>ReadMadeEyeHeight7_Lane1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">170</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>130</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>140</ID>
+        <NAME>ReadMadeEyeHeight7_Lane2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">182</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>131</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>141</ID>
+        <NAME>ReadMadeEyeHeight8_Lane0</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">147</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>132</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>142</ID>
+        <NAME>ReadMadeEyeHeight8_Lane1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">137</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>133</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>143</ID>
+        <NAME>ReadMadeEyeHeight8_Lane2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">183</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS> </UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>70</ACC_LOW>
+        <ACC_HIGH>9999</ACC_HIGH>
+        <TEST_TIME>28</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>134</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>144</ID>
+        <NAME>SetClockSource</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>41</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>135</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>145</ID>
+        <NAME>Dfe1</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">READ</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>READ</ACC_LOW>
+        <ACC_HIGH>READ</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>136</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>146</ID>
+        <NAME>Dfe2</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">READ</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>READ</ACC_LOW>
+        <ACC_HIGH>READ</ACC_HIGH>
+        <TEST_TIME>121</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>137</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>147</ID>
+        <NAME>Dfe3</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">READ</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>READ</ACC_LOW>
+        <ACC_HIGH>READ</ACC_HIGH>
+        <TEST_TIME>121</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>138</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>148</ID>
+        <NAME>Dfe4</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">READ</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>READ</ACC_LOW>
+        <ACC_HIGH>READ</ACC_HIGH>
+        <TEST_TIME>123</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>139</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>149</ID>
+        <NAME>Dfe5</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">READ</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>READ</ACC_LOW>
+        <ACC_HIGH>READ</ACC_HIGH>
+        <TEST_TIME>122</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>140</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>150</ID>
+        <NAME>Dfe6</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">READ</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>READ</ACC_LOW>
+        <ACC_HIGH>READ</ACC_HIGH>
+        <TEST_TIME>121</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>141</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>151</ID>
+        <NAME>Dfe7</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">READ</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>READ</ACC_LOW>
+        <ACC_HIGH>READ</ACC_HIGH>
+        <TEST_TIME>123</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>142</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>StringValueTest</STEP_TYPE>
+        <ID>152</ID>
+        <NAME>Dfe8</NAME>
+        <RESULT TYPE="STRING" LIMIT_SEQ="10">READ</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>string</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>READ</ACC_LOW>
+        <ACC_HIGH>READ</ACC_HIGH>
+        <TEST_TIME>121</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>143</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>153</ID>
+        <NAME>ConfigTddSwitching </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>164</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>144</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>154</ID>
+        <NAME>Made4SetDLPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>205</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>145</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>155</ID>
+        <NAME>Made7SetDLPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>244</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>146</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>156</ID>
+        <NAME>Made1SetDLPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>245</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>147</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>157</ID>
+        <NAME>Made3SetDLPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>246</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>148</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>158</ID>
+        <NAME>Made2SetDLPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>246</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>149</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>159</ID>
+        <NAME>Made6SetDLPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>247</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>150</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>160</ID>
+        <NAME>Made8SetDLPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>247</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>151</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>161</ID>
+        <NAME>Made5SetDLPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>248</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>152</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>162</ID>
+        <NAME>Made1SetULPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>222</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>153</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>163</ID>
+        <NAME>Made5SetULPathMode </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>224</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>154</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>164</ID>
+        <NAME>Made8SetULPathMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>244</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>155</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>165</ID>
+        <NAME>Made4SetULPathMode </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>245</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>156</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>166</ID>
+        <NAME>Made7SetULPathMode </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>247</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>157</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>167</ID>
+        <NAME>Made3SetULPathMode </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>248</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>158</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>168</ID>
+        <NAME>Made6SetULPathMode </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>248</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>159</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>169</ID>
+        <NAME>Made2SetULPathMode </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>249</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>160</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>170</ID>
+        <NAME>SetEcpriLowLevelLink</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5564</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>161</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>171</ID>
+        <NAME>ArrayCarrierSetup</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>21818</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>162</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>172</ID>
+        <NAME>BfSelfCalTest TX CaliAttempts</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>int</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>2883</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>163</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>173</ID>
+        <NAME>BfSelfCalTest TX SuccessCaliAttempts</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>int</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>2883</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>164</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>174</ID>
+        <NAME>BfSelfCalTest TX SuccessCaliAnt</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">32</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>int</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>32</ACC_LOW>
+        <ACC_HIGH>32</ACC_HIGH>
+        <TEST_TIME>2883</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>165</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>175</ID>
+        <NAME>BfSelfCalTest RX CaliAttempts</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>int</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>2883</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>166</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>176</ID>
+        <NAME>BfSelfCalTest RX SuccessCaliAttempts</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>int</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>5</ACC_HIGH>
+        <TEST_TIME>2883</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>167</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>177</ID>
+        <NAME>BfSelfCalTest RX SuccessCaliAnt</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">32</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>int</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>32</ACC_LOW>
+        <ACC_HIGH>32</ACC_HIGH>
+        <TEST_TIME>2883</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>168</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>178</ID>
+        <NAME>BfSelfCalTest</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2883</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>169</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>179</ID>
+        <NAME>StopBfSelfCalibration</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>20</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>170</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>180</ID>
+        <NAME>DeactiveArrayCarrier</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4579</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>171</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>181</ID>
+        <NAME>DeleteTddSwitching</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>61</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>172</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>182</ID>
+        <NAME>UploadFile(s)ToMade1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>2839</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>173</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>183</ID>
+        <NAME>SetPathRuntimeMode</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>81</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>174</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>184</ID>
+        <NAME>ConfigTddSwitching</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>287</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>175</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>185</ID>
+        <NAME>SetupDownlinkCarrier </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>8854</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>176</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>186</ID>
+        <NAME>InsertTestRam</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5408</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>177</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>187</ID>
+        <NAME>DL FDD Switch</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>100</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>178</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>188</ID>
+        <NAME>ReadControlWorldAndPower</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>3319</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>179</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>189</ID>
+        <NAME>ReadMonitorPowerBF</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-31.5131059298423</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>dBm</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-35.2</ACC_LOW>
+        <ACC_HIGH>-27.2</ACC_HIGH>
+        <TEST_TIME>591</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>180</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>190</ID>
+        <NAME>DisableInsert</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>60</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>181</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>191</ID>
+        <NAME>DeactiveAndDeleteCarrier</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1997</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>182</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>192</ID>
+        <NAME>DeleteTddSwitching</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>61</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>183</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>193</ID>
+        <NAME>PaVoltageOff</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>408</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>184</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>194</ID>
+        <NAME>SetTxSignalBF1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5283</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>185</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>195</ID>
+        <NAME>SetTxSignalBF2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>5784</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>186</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>196</ID>
+        <NAME>RxArrayCarrierSetup</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>4040</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>187</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>197</ID>
+        <NAME>UL FDD Switch</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>103</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>188</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>198</ID>
+        <NAME>TxSignalEnableBF1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>210</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>189</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>199</ID>
+        <NAME>AntPowerBF1_RxLink_Made1_Trx1_Ant1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.323462</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>190</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>200</ID>
+        <NAME>AntPowerBF1_RxLink_Made1_Trx2_Ant2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.067921</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>191</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>201</ID>
+        <NAME>AntPowerBF1_RxLink_Made1_Trx3_Ant3</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.172576</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>192</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>202</ID>
+        <NAME>AntPowerBF1_RxLink_Made1_Trx4_Ant4</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-52.865887</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>193</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>203</ID>
+        <NAME>AntPowerBF1_RxLink_Made2_Trx5_Ant17</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-52.865887</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>194</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>204</ID>
+        <NAME>AntPowerBF1_RxLink_Made2_Trx6_Ant18</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.067921</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>195</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>205</ID>
+        <NAME>AntPowerBF1_RxLink_Made2_Trx7_Ant19</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.172576</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>196</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>206</ID>
+        <NAME>AntPowerBF1_RxLink_Made2_Trx8_Ant20</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.172576</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>197</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>207</ID>
+        <NAME>AntPowerBF1_RxLink_Made3_Trx9_Ant5</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.172576</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>198</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>208</ID>
+        <NAME>AntPowerBF1_RxLink_Made3_Trx10_Ant6</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-52.96573</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>199</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>209</ID>
+        <NAME>AntPowerBF1_RxLink_Made3_Trx11_Ant7</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.172576</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>200</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>210</ID>
+        <NAME>AntPowerBF1_RxLink_Made3_Trx12_Ant8</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-52.579436</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>201</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>211</ID>
+        <NAME>AntPowerBF1_RxLink_Made4_Trx13_Ant21</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-52.865887</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>202</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>212</ID>
+        <NAME>AntPowerBF1_RxLink_Made4_Trx14_Ant22</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-52.865887</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>203</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>213</ID>
+        <NAME>AntPowerBF1_RxLink_Made4_Trx15_Ant23</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-52.865887</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>204</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>214</ID>
+        <NAME>AntPowerBF1_RxLink_Made4_Trx16_Ant24</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.389768</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>205</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>215</ID>
+        <NAME>AntPowerBF1_RxLink_Made5_Trx17_Ant12</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.067921</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>206</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>216</ID>
+        <NAME>AntPowerBF1_RxLink_Made5_Trx18_Ant11</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.618397</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>207</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>217</ID>
+        <NAME>AntPowerBF1_RxLink_Made5_Trx19_Ant10</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.279814</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>208</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>218</ID>
+        <NAME>AntPowerBF1_RxLink_Made5_Trx20_Ant9</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.502578</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>209</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>219</ID>
+        <NAME>AntPowerBF1_RxLink_Made6_Trx21_Ant28</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.502578</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>210</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>220</ID>
+        <NAME>AntPowerBF1_RxLink_Made6_Trx22_Ant27</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.594985</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>211</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>221</ID>
+        <NAME>AntPowerBF1_RxLink_Made6_Trx23_Ant26</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.859734</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>212</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>222</ID>
+        <NAME>AntPowerBF1_RxLink_Made6_Trx24_Ant25</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.067921</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>213</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>223</ID>
+        <NAME>AntPowerBF1_RxLink_Made7_Trx25_Ant16</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.737389</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>214</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>224</ID>
+        <NAME>AntPowerBF1_RxLink_Made7_Trx26_Ant15</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.172576</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>215</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>225</ID>
+        <NAME>AntPowerBF1_RxLink_Made7_Trx27_Ant14</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.279814</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>216</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>226</ID>
+        <NAME>AntPowerBF1_RxLink_Made7_Trx28_Ant13</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.389768</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>217</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>227</ID>
+        <NAME>AntPowerBF1_RxLink_Made8_Trx29_Ant32</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.859734</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>218</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>228</ID>
+        <NAME>AntPowerBF1_RxLink_Made8_Trx30_Ant31</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.641936</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>219</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>229</ID>
+        <NAME>AntPowerBF1_RxLink_Made8_Trx31_Ant30</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.618397</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>220</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>230</ID>
+        <NAME>AntPowerBF1_RxLink_Made8_Trx32_Ant29</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-53.067921</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-56</ACC_LOW>
+        <ACC_HIGH>-48</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>221</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>231</ID>
+        <NAME>AntPowerBF1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>70</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>222</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>232</ID>
+        <NAME>TxSignalDisableBF1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1465</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>223</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>233</ID>
+        <NAME>TxSignalEnableBF2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>209</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>224</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>234</ID>
+        <NAME>AntPowerBF2_RxLink_Made1_Trx1_Ant1</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.290114</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>225</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>235</ID>
+        <NAME>AntPowerBF2_RxLink_Made1_Trx2_Ant2</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.876187</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>226</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>236</ID>
+        <NAME>AntPowerBF2_RxLink_Made1_Trx3_Ant3</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.876187</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>227</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>237</ID>
+        <NAME>AntPowerBF2_RxLink_Made1_Trx4_Ant4</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.683136</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>228</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>238</ID>
+        <NAME>AntPowerBF2_RxLink_Made2_Trx5_Ant17</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.589735</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>229</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>239</ID>
+        <NAME>AntPowerBF2_RxLink_Made2_Trx6_Ant18</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.876187</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>230</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>240</ID>
+        <NAME>AntPowerBF2_RxLink_Made2_Trx7_Ant19</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.876187</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>231</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>241</ID>
+        <NAME>AntPowerBF2_RxLink_Made2_Trx8_Ant20</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.97603</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>232</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>242</ID>
+        <NAME>AntPowerBF2_RxLink_Made3_Trx9_Ant5</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.182875</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>233</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>243</ID>
+        <NAME>AntPowerBF2_RxLink_Made3_Trx10_Ant6</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.721066</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>234</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>244</ID>
+        <NAME>AntPowerBF2_RxLink_Made3_Trx11_Ant7</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.876187</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>235</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>245</ID>
+        <NAME>AntPowerBF2_RxLink_Made3_Trx12_Ant8</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.338421</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>236</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>246</ID>
+        <NAME>AntPowerBF2_RxLink_Made4_Trx13_Ant21</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.626855</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>237</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>247</ID>
+        <NAME>AntPowerBF2_RxLink_Made4_Trx14_Ant22</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.589735</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>238</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>248</ID>
+        <NAME>AntPowerBF2_RxLink_Made4_Trx15_Ant23</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.589735</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>239</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>249</ID>
+        <NAME>AntPowerBF2_RxLink_Made4_Trx16_Ant24</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.182875</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>240</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>250</ID>
+        <NAME>AntPowerBF2_RxLink_Made5_Trx17_Ant12</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.797934</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>241</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>251</ID>
+        <NAME>AntPowerBF2_RxLink_Made5_Trx18_Ant11</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.290114</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>242</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>252</ID>
+        <NAME>AntPowerBF2_RxLink_Made5_Trx19_Ant10</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.037055</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>243</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>253</ID>
+        <NAME>AntPowerBF2_RxLink_Made5_Trx20_Ant9</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.290114</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>244</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>254</ID>
+        <NAME>AntPowerBF2_RxLink_Made6_Trx21_Ant28</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.311883</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>245</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>255</ID>
+        <NAME>AntPowerBF2_RxLink_Made6_Trx22_Ant27</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.290114</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>246</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>256</ID>
+        <NAME>AntPowerBF2_RxLink_Made6_Trx23_Ant26</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.512878</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>247</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>257</ID>
+        <NAME>AntPowerBF2_RxLink_Made6_Trx24_Ant25</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.876187</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>248</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>258</ID>
+        <NAME>AntPowerBF2_RxLink_Made7_Trx25_Ant16</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.444841</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>249</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>259</ID>
+        <NAME>AntPowerBF2_RxLink_Made7_Trx26_Ant15</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.97603</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>250</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>260</ID>
+        <NAME>AntPowerBF2_RxLink_Made7_Trx27_Ant14</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.955877</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>251</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>261</ID>
+        <NAME>AntPowerBF2_RxLink_Made7_Trx28_Ant13</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.078221</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>252</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>262</ID>
+        <NAME>AntPowerBF2_RxLink_Made8_Trx29_Ant32</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.747689</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>253</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>263</ID>
+        <NAME>AntPowerBF2_RxLink_Made8_Trx30_Ant31</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.422397</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>254</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>264</ID>
+        <NAME>AntPowerBF2_RxLink_Made8_Trx31_Ant30</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-56.400068</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>255</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>NI_MultipleNumericLimitTest</STEP_TYPE>
+        <ID>265</ID>
+        <NAME>AntPowerBF2_RxLink_Made8_Trx32_Ant29</NAME>
+        <RESULT TYPE="NUMBER" LIMIT_SEQ="10">-55.778589</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>db</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>-59</ACC_LOW>
+        <ACC_HIGH>-51</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>256</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>266</ID>
+        <NAME>AntPowerBF2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>64</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>257</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>267</ID>
+        <NAME>TxSignalDisableBF2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1370</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>258</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>268</ID>
+        <NAME>DeactiveAndDeleteCarrierForMade1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>429</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>259</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>269</ID>
+        <NAME>DeactiveAndDeleteCarrierForMade2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>509</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>260</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>270</ID>
+        <NAME>DeleteTddSwitching</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>62</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>261</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>271</ID>
+        <NAME>PaVoltageOff </NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>407</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>262</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>272</ID>
+        <NAME>Sfp0FiberLoopback25G</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>11138</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>263</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>273</ID>
+        <NAME>Sfp1FiberLoopback25G</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>11138</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>264</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>274</ID>
+        <NAME>Sfp2FiberLoopback25G</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">0</RESULT>
+        <STATUS>FAIL</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>11138</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>265</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>275</ID>
+        <NAME>Sfp3FiberLoopback25G</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>11138</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>266</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>276</ID>
+        <NAME>ClearFlag_Zu2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>125</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>267</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>277</ID>
+        <NAME>ClearFlag_Made7</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>289</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>268</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>278</ID>
+        <NAME>ClearFlag_Made2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>411</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>269</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>279</ID>
+        <NAME>ClearFlag_Made1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>537</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>270</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>280</ID>
+        <NAME>ClearFlag_Made6</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>657</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>271</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>281</ID>
+        <NAME>ClearFlag_Made3</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>804</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>272</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>282</ID>
+        <NAME>ClearFlag_Made4</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>866</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>273</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>283</ID>
+        <NAME>ClearFlag_Made8</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>966</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>274</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>284</ID>
+        <NAME>ClearFlag_Made5</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>1024</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>275</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>285</ID>
+        <NAME>DisConnectMade3</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>144</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>276</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>286</ID>
+        <NAME>DisConnectMade4</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>182</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>277</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>287</ID>
+        <NAME>DisConnectMade6</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>183</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>278</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>288</ID>
+        <NAME>DisConnectMade8</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>185</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>279</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>289</ID>
+        <NAME>DisConnectMade5</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>185</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>280</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>290</ID>
+        <NAME>DisConnectMade7</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>186</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>281</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>291</ID>
+        <NAME>DisConnectMasterCpu</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>231</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>282</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>292</ID>
+        <NAME>DisConnectMade2</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>248</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>283</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>293</ID>
+        <NAME>DisConnectMade1</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>410</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>284</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>294</ID>
+        <NAME>PsuPowerOff</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>6</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>285</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>295</ID>
+        <NAME>DoorOpen</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>13352</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>286</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>296</ID>
+        <NAME>DutOut</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>218318</TEST_TIME>
+        <COMMENT />
+        <QM_MEAS_ID>287</QM_MEAS_ID>
+      </MEASUREMENT>
+      <MEASUREMENT>
+        <STEP_TYPE>PassFailTest</STEP_TYPE>
+        <ID>297</ID>
+        <NAME>PlugOutTheSfp</NAME>
+        <RESULT TYPE="BOOLEAN" LIMIT_SEQ="10">1</RESULT>
+        <STATUS>PASS</STATUS>
+        <UNIT_OF_MEAS>bool</UNIT_OF_MEAS>
+        <TEST_CHANNEL />
+        <TOL_LIMIT_FLAG>0</TOL_LIMIT_FLAG>
+        <ACC_LOW>1</ACC_LOW>
+        <ACC_HIGH>1</ACC_HIGH>
+        <TEST_TIME>31463</TEST_TIME>
+        <COMMENT></COMMENT>
+        <QM_MEAS_ID>288</QM_MEAS_ID>
+      </MEASUREMENT>
+    </RESULTS>
+    <TIMES>
+      <SETUP_TIME>1</SETUP_TIME>
+      <TEST_TIME>1010095</TEST_TIME>
+      <UNLOAD_TIME>0</UNLOAD_TIME>
+    </TIMES>
+    <TEST_START>20250206224130</TEST_START>
+    <TEST_STOP>20250206225821</TEST_STOP>
+    <OVERALL_STATUS>FAIL</OVERALL_STATUS>
+    <DIAGNOSTICS TYPE="NR">ENGINEERING</DIAGNOSTICS>
+    <LOG_DATA></LOG_DATA>
+  </RESULT_DATA>
+</QM_TEST_RESULT>

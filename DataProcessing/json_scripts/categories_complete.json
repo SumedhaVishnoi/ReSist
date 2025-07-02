@@ -1,0 +1,851 @@
+{
+    
+    "BBOX_25_26.16.1316": {
+        "Description": "FAIL - ID-25,26 FID16,FID1316",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.1": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.1_23": {
+        "Description": "FAIL - ID-23 BBOX FID16",
+        "ids": [
+            "ID-23"
+        ]
+    },
+    "BBOX1.10": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST F1D16, ID 215 ANT POWER BF 1",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.2": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, FAIL ID- NCU DETECTION MADE 3,7",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.21": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, ID-28,29 NCU DETECTION MADE 5,8",
+        "ids": [
+            "ID-25",
+            "ID-28"
+        ]
+    },
+    "BBOX1.22": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, 28-92 NCU DETECTION MADE 7",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.221": {
+        "Description": "FAIL - ID-25,44 BBOX FILE CHECK TEST FID16, NCU DETECTION MADE 7",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.23": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, ID-28 NCU DETECTION MADE 8",
+        "ids": [
+            "ID-25",
+            "ID-28"
+        ]
+    },
+    "BBOX1.232": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST F1D16, ID-27 NCU DETECTION MADE 8",
+        "ids": [
+            "ID-25",
+            "ID-27"
+        ]
+    },
+    "BBOX1.24": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, ID-27 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-25",
+            "ID-27"
+        ]
+    },
+    "BBOX1.241": {
+        "Description": "FAIL - ID-25,28 BBOX FILE FID16 AND NCU MADE 6",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.25": {
+        "Description": "FAIL - ID-25,27 BBOX FILE CHECK TEST FID16, NCU DETECTION MADE 2",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.26": {
+        "Description": "FAIL - ID-25,28-30 BBOX FILE CHECK TEST FID16, NCU DETECTION MADE 1",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.3": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, ID-29 SFP FIBER LOOP BACK 25G",
+        "ids": [
+            "ID-25",
+            "ID-29"
+        ]
+    },
+    "BBOX1.4": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, ID-26 BBOX FILE CHECK TEST FID1316",
+        "ids": [
+            "ID-25",
+            "ID-26"
+        ]
+    },
+    "BBOX1.5": {
+        "Description": "FAIL - ID-27 BBOX FILE CHECK TEST FID1103",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "BBOX1.51": {
+        "Description": "FAIL - ID-28 BBOX CHECK FILE TEST FID1103",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "BBOX1.6": {
+        "Description": "FAIL - ID-26 BBOX FILE CHECK TEST FID316",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "BBOX1.61": {
+        "Description": "FAIL - ID-25,26 BBOX FID16, BBOX FID316",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "BBOX1.7": {
+        "Description": "FAIL - ID-26 BBOX FILE CHECK TEST FID1316",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "BBOX1.8": {
+        "Description": "FAIL - ID-27-28 BBOX FID16, MADE ISSUE DETECTION 1",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "BBOX1.81": {
+        "Description": "FAIL - ID-27 BBOX FILE CHECK TEST FID1103, ID-52 NCU MADE 1",
+        "ids": [
+            "ID-27",
+            "ID-52"
+        ]
+    },
+    "BBOX1.9": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, ID-26 BBOX FILE CHECK TEST FID1316, ID-35 CONNECT MADE 2",
+        "ids": [
+            "ID-25",
+            "ID-26",
+            "ID-35"
+        ]
+    },
+    "BBOX1.91": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST F1D16, ID-27 NCU DETECTION MADE 2",
+        "ids": [
+            "ID-25",
+            "ID-27"
+        ]
+    },
+    "BBOXDFE": {
+        "Description": "FAIL - ID-25 BBOIX FID16, ID-142 DFE 1",
+        "ids": [
+            "ID-25",
+            "ID-142"
+        ]
+    },
+    "BBOXFAN": {
+        "Description": "FAIL - ID-25 BBOX FILE CHECK TEST FID16, ID-82 FAN RFSW CONTROL TEST",
+        "ids": [
+            "ID-25",
+            "ID-82"
+        ]
+    },
+
+    "NCU4.1": {
+        "Description": "FAIL - ID-25 FID16, ID-28-29 NCU DETECTION MADE 1",
+        "ids": [
+            "ID-25",
+            "ID-28"
+        ]
+    },
+    "NCU4.1_26": {
+        "Description": "FAIL - ID-26 NCU DETECTION MADE 1",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.1_26_27": {
+        "Description": "FAIL - ID-26-27 NCU DETECTION MADE 1",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.1_27": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 1",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.1_27_28": {
+        "Description": "FAIL - ID-27-28 NCU DETECTION MADE 1",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.1_28": {
+        "Description": "FAIL - ID-28 NCU MADE 1",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.1_28_29": {
+        "Description": "FAIL - ID-28-29 NCU DETECTION MADE 1",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.2": {
+        "Description": "FAIL - ID-25 FID16, ID-28-29 NCU DETECTION MADE 2",
+        "ids": [
+            "ID-25",
+            "ID-28"
+        ]
+    },
+    "NCU4.2.3.8_26_27_28": {
+        "Description": "FAIL - ID-26,27,28 NCU DETECTION MADE 2,3,8",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.2.8_27_28": {
+        "Description": "FAIL - ID-27-28 NCU DETECTION MADE 2,8",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.2.8_28_30": {
+        "Description": "FAIL - ID-28-30 NCU DETECTION MADE 2,8",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.2_26": {
+        "Description": "FAIL - ID-26 NCU DETECTION MADE 2",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.2_27": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 2",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.2_27_28": {
+        "Description": "FAIL - ID-27-28 NCU DETECTION MADE 2",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.2_28": {
+        "Description": "FAIL - ID-28 NCU DETECTION MADE 2",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.2_28_29": {
+        "Description": "FAIL - ID-28-29 NCU DETECTION MADE 2",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.3.6_45_46": {
+        "Description": "FAIL - ID-45-46 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-45"
+        ]
+    },
+    "NCU4.3.7.8_27_30": {
+        "Description": "FAIL - ID-27-30 NCU DETECTION MADE 3,7,8",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.3.7_44_45": {
+        "Description": "FAIL - ID-44-45 NCU DETECTION MADE 3,7",
+        "ids": [
+            "ID-44"
+        ]
+    },
+    "NCU4.3_27": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 3",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.3_27_28": {
+        "Description": "FAIL - ID-27-28 NCU DETECTION MADE 3",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.3_28": {
+        "Description": "FAIL - ID-28 NCU DETECTION MADE 3",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.3_28_29": {
+        "Description": "FAIL - ID-28-29 NCU DETECTION MADE 3",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.4": {
+        "Description": "FAIL - ID-25 FID16, ID-28-30 NCU DETECTION MADE 4",
+        "ids": [
+            "ID-25",
+            "ID-28"
+        ]
+    },
+    "NCU4.4.5_27_30": {
+        "Description": "FAIL - ID-27-30 NCU DETECTION MADE 4,5",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.4.6_27_28": {
+        "Description": "FAIL - ID-27,28 NCU DETECTION MADE 4,6",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.4.8_28_30": {
+        "Description": "FAIL - ID-28-30 NCU MADE 4,8",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.4_26": {
+        "Description": "FAIL - ID-26 NCU DETECTION MADE 4",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.4_27": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 4",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.4_28": {
+        "Description": "FAIL - ID-28 NCU DETECTION MADE 4",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.5.6_28_29": {
+        "Description": "FAIL - ID-28-29 NCU DETECTION MADE 5,6",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.5_26_27": {
+        "Description": "FAIL - ID-26,27 NCU DETECTION MADE 5",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.5_27": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 5",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.5_28_29": {
+        "Description": "FAIL - ID-28-29 NCU DETECTION MADE 5",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.5_29": {
+        "Description": "FAIL - ID-2-29 NCU DETECTION MADE 5",
+        "ids": [
+            "ID-2"
+        ]
+    },
+    "NCU4.6": {
+        "Description": "FAIL - ID-25 FID16, ID-28-29 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-25",
+            "ID-28"
+        ]
+    },
+    "NCU4.6_26": {
+        "Description": "FAIL - ID-26 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.6_26_152": {
+        "Description": "FAIL - ID-26-152 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.6_27": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.6_27_28": {
+        "Description": "FAIL - ID-27-28 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.6_27_30": {
+        "Description": "FAIL - ID-27-30 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.6_28": {
+        "Description": "FAIL - ID-28 NCU DETECTION MADE 6",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.7.8_27_28": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 7, ID-28 NCU DETECTION MADE 8",
+        "ids": [
+            "ID-27",
+            "ID-28"
+        ]
+    },
+    "NCU4.7_26": {
+        "Description": "FAIL - ID-26 NCU DETECTION MADE 7",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.7_27": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 7",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.7_28": {
+        "Description": "FAIL - ID-28 NCU DETECTION MADE 7",
+        "ids": [
+            "ID-28"
+        ]
+    },
+    "NCU4.8": {
+        "Description": "FAIL - ID-25 FID16, ID-28,29 NCU DETECTION MADE 8",
+        "ids": [
+            "ID-25",
+            "ID-28"
+        ]
+    },
+    "NCU4.8_26": {
+        "Description": "FAIL - ID-26 NCU DETECTION MADE 8",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "NCU4.8_27": {
+        "Description": "FAIL - ID-27 NCU DETECTION MADE 8",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.8_27_28": {
+        "Description": "FAIL - ID-27,28 NCU MADE 8, NCU ISSUE DETECTION",
+        "ids": [
+            "ID-27"
+        ]
+    },
+    "NCU4.8_28_29": {
+        "Description": "FAIL - ID-28-29 NCU DETECTION MADE 8",
+        "ids": [
+            "ID-28"
+        ]
+    },
+
+
+    "MADE2.4": {
+        "Description": "FAIL - ID-100 CONNECT MADE 7_M32",
+        "ids": [
+            "ID-100"
+        ]
+    },
+    "6.1": {
+        "Description": "FAIL - ID-116 BIST MADE 2 ANT TEST BINARY MADE 5, ID-142-147 DFE1-5_M32",
+        "ids": [
+            "ID-116",
+            "ID-142"
+        ]
+    },
+    "6_read_121": {
+        "Description": "FAIL - ID-121 READ MADE EYE HEIGHT 2 LANE 1_M32",
+        "ids": [
+            "ID-121"
+        ]
+    },
+    "6_read_124": {
+        "Description": "FAIL - ID-124 READ MADE EYE_M32",
+        "ids": [
+            "ID-124"
+        ]
+    },
+    "5_17,18,19,20": {
+        "Description": "FAIL - ID-17 POWER RESET TEST, ID-18 UART TEST, ID-19PING TARGET, ID-20 CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-17",
+            "ID-18",
+            "ID-19",
+            "ID-20"
+        ]
+    },
+    "5_Power_17": {
+        "Description": "FAIL - ID-17 POWER RESET TEST_M32",
+        "ids": [
+            "ID-17"
+        ]
+    },
+
+    "5.1_17-20": {
+        "Description": "FAIL - ID-17-20 POWER RESET TEST_M32",
+        "ids": [
+            "ID-17"
+        ]
+    },
+    "5.2": {
+        "Description": "FAIL - ID-18 PING TARGET_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.3": {
+        "Description": "FAIL - ID-18 UART TEST, ID-19 PING TARGET, ID-20 CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-18",
+            "ID-19",
+            "ID-20"
+        ]
+    },
+    "5.4": {
+        "Description": "FAIL - ID-18 UART TEST_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.5": {
+        "Description": "FAIL - ID-18,19 PING TARGET_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.6": {
+        "Description": "FAIL - ID-18-20 PING TARGET, CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.6_2": {
+        "Description": "FAIL - ID-18-20 PING TARGET_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.6_3": {
+        "Description": "FAIL - ID-18-20 UART TEST, PING TARGET_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.6_4": {
+        "Description": "FAIL - ID-18-20 UART TEST_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.6_5": {
+        "Description": "FAIL - ID-18-20 UART, PING TARGET_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.6_6": {
+        "Description": "FAIL - ID-18-20 UART, PING, CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-18"
+        ]
+    },
+    "5.7": {
+        "Description": "FAIL - ID-19 PING TARGET, CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-19"
+        ]
+    },
+    "5.7_2": {
+        "Description": "FAIL - ID-19 PING TARGET, ID-20 CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-19",
+            "ID-20"
+        ]
+    },
+    "5.8.1": {
+        "Description": "FAIL - ID-19,20 PING TARGET, CONTROL MASTER CPU_M32",
+        "ids": [
+            "ID-19"
+        ]
+    },
+    "5.8.2": {
+        "Description": "FAIL - ID-19,20 PING TEST AND CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-19"
+        ]
+    },
+    "5.9": {
+        "Description": "FAIL - ID-20 CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-20"
+        ]
+    },
+    "exc": {
+        "Description": "FAIL - ID-20 SANITY HWS_M32",
+        "ids": [
+            "ID-20"
+        ]
+    },
+    "6_ANT_200": {
+        "Description": "FAIL - ID-200 ANT POWER BF 1, TRX 5_M32",
+        "ids": [
+            "ID-200"
+        ]
+    },
+    "6_ANT_207": {
+        "Description": "FAIL - ID-207 ANT POWER BF 1 MADE 2_M32",
+        "ids": [
+            "ID-207"
+        ]
+    },
+    "exc_2": {
+        "Description": "FAIL - ID-26 CONNECT MASTER CPU_M32",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "SFP_fiber_1": {
+        "Description": "FAIL - ID-260 SFP FIBER LOOP BACK_M32",
+        "ids": [
+            "ID-260"
+        ]
+    },
+    "fiberloop_2": {
+        "Description": "FAIL - ID-270 SFP 2 FIBER LOOP BACK 25G_M32",
+        "ids": [
+            "ID-270"
+        ]
+    },
+    "fiberloop_3": {
+        "Description": "FAIL - ID-273 SFP 3 FIBER LOOP BACK 25G_M32",
+        "ids": [
+            "ID-273"
+        ]
+    },
+    "fiberloop_3_2": {
+        "Description": "FAIL - ID-273 SFP3 FIBER LOOP BACK 25G_M32",
+        "ids": [
+            "ID-273"
+        ]
+    },
+    "MADE 2.1": {
+        "Description": "FAIL - ID-35 CONNECT MADE 1_M32",
+        "ids": [
+            "ID-35"
+        ]
+    },
+    "FAN_control_1": {
+        "Description": "FAIL - ID-80-81 FAN FULL CONTROL TEST_M32",
+        "ids": [
+            "ID-80"
+        ]
+    },
+    "FAN_control_2": {
+        "Description": "FAIL - ID-82 FAN RFSW CONTROL TEST, ID-86 FAN FULL CONTROL TEST_M32",
+        "ids": [
+            "ID-82",
+            "ID-86"
+        ]
+    },
+    "FAN_control_3": {
+        "Description": "FAIL - ID-83085 FAN FULL CONTROL TEST_M04",
+        "ids": [
+            "ID-83085"
+        ]
+    },
+    "FAN_control_1_86": {
+        "Description": "FAIL - ID-86 FAN FULL CONTROL TEST_M32",
+        "ids": [
+            "ID-86"
+        ]
+    },
+    "exc_3": {
+        "Description": "FAIL - ID-88,89 FAN FULL CONTROL TEST CONNECT MADE 6TRX _PA ASSEMBLY FAULTY REPAIRED_M32",
+        "ids": [
+            "ID-88"
+        ]
+    },
+    "MADE 2.2": {
+        "Description": "FAIL - ID-94,95 CONNECT MADE 3,6_M32",
+        "ids": [
+            "ID-94"
+        ]
+    },
+    "MADE2.3": {
+        "Description": "FAIL - ID-98-100 CONNECT MADE 3,8,2_M32",
+        "ids": [
+            "ID-98"
+        ]
+    },
+    "MADE 2.3": {
+        "Description": "FAIL - ID-98-100 CONNECT MADE 3,8,2_M32",
+        "ids": [
+            "ID-98"
+        ]
+    },
+    "MADE 2.5": {
+        "Description": "FAIL - ID-99 CONNECT MADE 8_M32",
+        "ids": [
+            "ID-99"
+        ]
+    },
+
+
+    "3.1": {
+        "Description": "FAIL ID-171 BF SELF CAL TEST TX",
+        "ids": [
+            "ID-171"
+        ]
+    },
+    "3.2": {
+        "Description": "FAIL ID-25,171,173,174 BF SELF CAL TEST, TRX_PA ASSEMBLY FAULTY REPAIRED",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "3.3": {
+        "Description": "FAIL ID-170 BF SELF CAL TEST TX",
+        "ids": [
+            "ID-170"
+        ]
+    },
+    "3.4": {
+        "Description": "FAIL ID-190 BF SELF CAL TEST TX",
+        "ids": [
+            "ID-190"
+        ]
+    },
+    "3.6": {
+        "Description": "FAIL ID-26,182 BBOX FILE CHECK TEST FID1316, BF SELF CAL TEST TX",
+        "ids": [
+            "ID-26"
+        ]
+    },
+    "3.7": {
+        "Description": "FAIL ID-25,168-174 BBOX FID16, ARRAY CARRIER SETUP, BF SELF CAL TEST",
+        "ids": [
+            "ID-25"
+        ]
+    },
+    "3.8": {
+        "Description": "FAIL ID-170,173,232-263 BF SELF CAL TEST, ANT POWER BF 2",
+        "ids": [
+            "ID-170"
+        ]
+    },
+    "3.9": {
+        "Description": "FAIL ID-169 BF SELF CAL TEST TX",
+        "ids": [
+            "ID-169"
+        ]
+    },
+    "3.11": {
+        "Description": "FAIL ID-169-173 BF SELF CAL TEST, DEALTIVE ARRAY CARRIER",
+        "ids": [
+            "ID-169"
+        ]
+    },
+    "3.12": {
+        "Description": "FAIL ID-168-174 BF SELF CAL TEST, ARRAY CARRIER SETUP",
+        "ids": [
+            "ID-168"
+        ]
+    },
+    "3.13": {
+        "Description": "FAIL ID-170,187 BF SELF CAL TEST, READ MONITOR POWER, TRX_PA ASSEMBLY FAULTY REPAIRED",
+        "ids": [
+            "ID-170"
+        ]
+    },
+    "3.14": {
+        "Description": "FAIL ID-169,171-172 BF SELF CAL TEST",
+        "ids": [
+            "ID-169"
+        ]
+    },
+    "3.15": {
+        "Description": "FAIL ID-170,187 BF SELF CAL TEST, READ MONITOR POWER, TRX_PA ASSEMBLY FAULTY REPAIRED",
+        "ids": [
+            "ID-170"
+        ]
+    },
+    "7.2": {
+        "Description": "FAIL ID-24 SANITY CHECK",
+        "ids": [
+            "ID-24"
+        ]
+    },
+    "7.3": {
+        "Description": "FAIL ID-24 SANITY CHECK HWS",
+        "ids": [
+            "ID-24"
+        ]
+    },
+    
+    "sanity7.2": {
+        "Description": "FAIL - ID-24 SANITY CHECK",
+        "ids": [
+            "ID-24"
+        ]
+    },
+    "sanity7.3": {
+        "Description": "FAIL - ID-24 SANITY CHECK HWS",
+        "ids": [
+            "ID-24"
+        ]
+    }
+}
+
+
+
+
+ 
